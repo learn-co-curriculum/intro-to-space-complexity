@@ -37,7 +37,7 @@ function add(x, y):
 
 This function adds two numbers and returns the result. The inputs will be integers, and the return value will also be an integer. It doesn't matter what those integers are, the space requirements will always be the same for any given inputs.
 
-### Logarithmic Space O(n)
+### Logarithmic Space O(log n)
 
 ```
 /* for sorted arrays only */
@@ -72,7 +72,7 @@ Since the above method is recursive, we can think of the space in terms of the n
 | 5 | 3 |
 | 10 | 4 |
 
-### Linear Space O(log n)
+### Linear Space O(n)
 
 ```
 function sum_array(array):
