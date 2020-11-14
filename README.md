@@ -84,7 +84,9 @@ function sum_array(array):
   return sum
 ```
 
-This procedure stores an integer variable and requires an input array to run. If we were to code this fully using a `for` or `while` loop, we'd also have to store another variable for the iteration (the one commonly known as `i`). The integer variables, such as `sum` and `i` would require constant space, since they'll only ever store a single integer each. The input array, however, will have varying space requirements because its length is not fixed. The function could be called with an array that's empty or contains 1,000 elements. Therefore, this procedure requires O(n) space: the input array is the weakest link!
+This procedure stores an integer variable and requires an input array to run. If we were to code this fully using a `for` or `while` loop, we'd also have to store another variable for the iteration (the one commonly known as `i`). 
+
+The integer variables, such as `sum` and `i` would require constant space, since they'll only ever store a single integer each. The input array, however, will have varying space requirements because its length is not fixed. The function could be called with an array that's empty or contains 1,000 elements. Therefore, this procedure requires O(n) space: the input array is the weakest link!
 
 ### Quadratic Space O(n<sup>2</sup>)
 
@@ -114,7 +116,7 @@ function big_sum(array):
   total = 0
 
   function add(count):
-    if count === array length:
+    if count == array length:
       return
     
     iterate over each element in array:
