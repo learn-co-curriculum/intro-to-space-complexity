@@ -17,7 +17,7 @@ The important things to remember when calculating time complexity are the same f
 
 ### Common Notations
 
-Here are some of the commonly used Big O values, though there are more, in order from most desirable to least desirable!
+Here are some of the commonly used Big O values, though there are more, in order from most desirable to least desirable:
 
 1. Constant O(1): The amount of space required never changes, regardless of the input
 2. Logarithmic O(log n): As the size of the input increases exponentially, the amount of space required grows linearly
