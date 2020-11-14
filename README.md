@@ -125,4 +125,13 @@ function big_sum(array):
   return total
 ```
 
-The above function adds array length number of frames to the stack for every element in the input array. Let's say the input array is `[1, 2]`. `add` will recurse with a `count` of 1, and will then recurse again with a `count` of 2, so two frames are on the stack. At this point the `count` equals the array length, so the frame will be popped from the stack. As it turns out, the largest number of frames on the stack (or the deepest depth), equals O(n) - i.e. the length fo the input array - for this function.
+The above function adds array length number of frames to the stack for every element in the input array. Let's say the input array is `[1, 2]`. `add` will recurse with a `count` of 1, and will then recurse again with a `count` of 2, so two frames are on the stack. At this point the `count` equals the array length, so the frame will be popped from the stack, reducing its size. As it turns out, the largest number of frames on the stack (or the deepest depth), equals O(n) - i.e. the length fo the input array - for this function.
+
+## Conclusion
+
+We can use Big O notation to represent the space complexity of an algorithm, similar to how we use it for time complexity. To calculate the space complexity, we must consider all of the data required for the algorithm to run. We can then pinpoint the weakest link with the worst case in mind and use that to determine Big O. And don't forget, we have to consider how much space the input requires!
+
+## Further Resources
+
+- [Understanding Space Complexity](https://www.baeldung.com/cs/space-complexity)
+- [Space Complexity of Algorithms](https://www.studytonight.com/data-structures/space-complexity-of-algorithms#)
