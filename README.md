@@ -37,7 +37,7 @@ function add(x, y):
 
 This function adds two numbers and returns the result. The inputs will be integers, and the return value will also be an integer. It doesn't matter what those integers are, the space requirements will always be the same for any given inputs.
 
-### Logarithmic Space O(log n)
+### Logarithmic Space O(n)
 
 ```
 /* for sorted arrays only */
