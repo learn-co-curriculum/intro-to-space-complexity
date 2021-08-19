@@ -5,12 +5,14 @@ Space complexity measures how much working memory an algorithm requires. Specifi
 Just like time complexity, we calculate space complexity when we're considering competing solutions or when we have specific space requirements we must meet. In game development, for example, engineers are often allocated upper limits for how much space each process may use, such as running the audio engine or rendering certain types of effects.
 
 If you're still struggling with the concept of time complexity, you might want to take 15 minutes to research Big O and get more comfortable with it before moving forward. Here are two resources you might wisht to read:
+
 - [Interview Cake: Big O Notation](https://www.interviewcake.com/article/java/big-o-notation-time-and-space-complexity)
 - [Rob Bell: A Beginner's Guide to Big O Notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
 
 ## Refresher
 
 The important things to remember when calculating time complexity are the same for space complexity:
+
 - Calculate for the worst case
 - Focus on the weakest link (the part that will take up the most space)
 - Ignore the other details
